@@ -95,7 +95,7 @@ func (c *Client) request(method string, endpoint string, body interface{}) (*htt
 	var buf io.ReadWriter
 	if body != nil {
 		buf = new(bytes.Buffer)
-		json.NewEncoder(buf).Encode(body)
+		err = json.NewEncoder(buf).Encode(body)
 		if err != nil {
 			return nil, err
 		}
