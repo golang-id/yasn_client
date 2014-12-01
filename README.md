@@ -9,7 +9,7 @@ Lihat [contoh](./examples/main.go)
 
 ## Screencast
 
-Pustaka ini dibuat bersamaan dengan screencast (TBD) dibuat.
+Pustaka ini dibuat bersamaan dengan screencast [TDD Dalam Go Bagian II](https://www.youtube.com/watch?v=18hhux8ZKHU) dibuat.
 
 ## Lisensi
 
